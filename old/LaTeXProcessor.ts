@@ -9,7 +9,7 @@ import {
   TextlintPluginProcessor,
   TextlintPluginOptions,
 } from "@textlint/types";
-import { parse } from "./parser";
+import { parse } from "./latex-to-ast";
 
 export class LaTeXProcessor implements TextlintPluginProcessor {
   private config: TextlintPluginOptions;
